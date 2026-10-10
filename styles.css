@@ -1,0 +1,84 @@
+/* formatting for all pages */
+body {
+margin: 0;
+font-family: arial, sans-serif;
+color:#222;
+background-color: #f4f9f9;
+}
+
+/* straight linear gradient in the header */
+header {
+    padding: 30px 20px;
+    text-align: center;
+    color: white;
+    background: linear-gradient(#028090, #013a40);
+}
+
+nav{
+    background-color: #013a40;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav a {
+    display:block;
+    padding: 15px;
+    color:white;
+    text-decoration:none;
+}
+
+nav a:hover {
+    background-color: #028090;
+}
+
+article {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+h2{
+    color: #013a40;
+}
+
+/* images and vidoes shrink so that they can fit*/
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+
+figure {
+    margin: 15px 0;
+}
+
+input, textarea{
+    max-width: 100%;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+input[type="submit"] {
+    background-color: #013a40;
+    color: white;
+    cursor: pointer;
+}
+
+/* Angled linear gradient in the footer */
+footer{
+    clear: both;
+    padding: 20px;
+    text-align: centere;
+    color: white;
+    background: linear-gradient(-45deg, #013a40, #028090);
+}
+
+footer a{
+    color: white;
+}

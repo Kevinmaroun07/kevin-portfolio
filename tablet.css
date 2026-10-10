@@ -1,0 +1,22 @@
+/* Tablet layout: 481px to 959px */
+body {
+    width:95%;
+    margin: 0 auto;
+}
+nav {
+    overflow: auto;
+    margin-bottom: 20px;
+}
+
+nav li {
+    float: left;
+    width: 25%;
+}
+
+nav a {
+    text-align: center;
+}
+
+article {
+    margin-left: 0;
+}

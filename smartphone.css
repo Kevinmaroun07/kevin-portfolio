@@ -1,0 +1,22 @@
+/* Phone layout: 480px and narrower */
+body {
+    width: 100%;
+}
+
+nav { 
+    margin-bottom: 15px;
+}
+
+nav li {
+    float: none;
+    width: 100%;
+}
+
+nav a {
+    text-align: center;
+}
+
+article {
+    margin: 10px;
+    padding: 15px;
+}

@@ -1,0 +1,14 @@
+/* Laptop layout: 960px and wider */
+body {
+    width:85%;
+    margin: 0 auto;
+}
+
+nav {
+    float: left;
+    width:25%;
+}
+
+article {
+    margin-left:28%;
+}

@@ -74,7 +74,7 @@ input[type="submit"] {
 footer{
     clear: both;
     padding: 20px;
-    text-align: centere;
+    text-align: center;
     color: white;
     background: linear-gradient(-45deg, #013a40, #028090);
 }

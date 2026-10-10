@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="veiwport" content="width=device-width, initial-scale=1.0">
+        <title>Kevin Maroun | Contact Me</title>
+    </head>
+    <body>
+        <header>
+            <h1>Contact Me</h1>
+            <p>Get in touch with Kevin Maroun</p>
+        </header>
+
+        <!-- Navigation between the four pages-->
+         <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a><li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+  
+            </ul>
+         </nav>
+
+         <article>
+            <h2>Send a message</h2>
+            <p>This form opens your email app, send the message from there.</p>
+
+            <!-- Email submission, lecture form-->
+             <form action="mailto:kevin.maroun@ontariotechu.net"
+             method="post" enctype="text/plain">
+
+             <!-- HTML vaildation-->
+              <p>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required>
+              </p>
+
+              <p>
+                <label for ="email">Email</label><br>
+                <input type="email" id="email" name="email" required>
+              </p>
+
+              <p>
+                <label for="phone">Phone (10 digits, no spaces):</label><br>
+                <input type="tel" id="phone" name="phone"
+                pattern="[0-9]{10}" maxlength="10"
+                title="Enter 10 digits without spaces or dashes"
+                required>
+
+              </p>
+              
+              <p>
+                <label for="comments">Comments:</label><br>
+                <textarea id="comments" name="comments"
+                rows="6" cols="30" required></textarea>
+              </p>
+
+              <p>
+                <input type="submit" value="Send message">
+              </p>
+            </form>
+         </article>
+
+         <!-- Contact information and copyright -->
+          <footer>
+            <p>Email:
+                <a href="mailto:kevin.maroun@ontariotechu.net">
+                    kevin.maroun@ontariotechu.net
+                </a>
+            </p>
+            <p>&copy; 2026 Kevin Maroun</p>
+          </footer>
+    </body>
+</html>
